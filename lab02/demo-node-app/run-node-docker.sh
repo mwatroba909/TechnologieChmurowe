@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# Funkcja do wyświetlania informacji o krokach
 info() {
   echo -e "\n\033[1;34m[$1]\033[0m $2"
 }
 
-# Ustalamy wersję Node.js (dla demonstracji)
 NODE_VERSION="14"
 
 info "KONFIGURACJA" "Używam Node.js w wersji $NODE_VERSION"
